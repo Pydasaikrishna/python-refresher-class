@@ -5,13 +5,24 @@
 # print("user need to pay",totalcount)
 
 
-def solveMeFirst(a,b):
+# batcount = int(input("no.of bats sold: "))
+# wicketcount = int(input("no.of wickets sold: "))
+# if(batcount<=0 or wicketcount<=0):
+#    print("Enter a positive number")
 
-   return a+b
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-res = solveMeFirst(num1,num2)
-print(res)
+batcount = int(input("no.of bats sold: "))
+wicketcount = int(input("no.of wickets sold: "))
+if(batcount<=0 and wicketcount<=0):
+   print("Enter a positive number")
+
+
+# def solveMeFirst(a,b):
+#    return a+b
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# res = solveMeFirst(num1,num2)
+# print(res)
+
 
 
