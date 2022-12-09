@@ -25,7 +25,7 @@ product_4 = int(input("quantity of fourth product: "))
 product_5 = int(input("quantity of fifty product: "))
 
 #using List
-l = [product_1,product_2,product_3,product_4,product_5]
+# l = [product_1,product_2,product_3,product_4,product_5]
 
 #using For loop
 # for i in l:
@@ -37,10 +37,14 @@ if((product_1<=0) or (product_2<=0) or (product_3<=0) or (product_4<=0) or (prod
 else:
     print("The product quantity with price: ")
     total = product_1*200 + product_2*300 + product_3*400 + product_4*100 + product_5*200
-    entries = {product_1 : 200,product_2 : 300, product_3 : 400, product_4 : 100, product_5 : 200}
-    #i=product_1... etc  and p=price..,
+    entries = {product_1 : 200,product_2 : 300, product_3 : 400, product_4 : 100, product_5 : 200}  #i=product_1... etc  ,       # and p=price..,
+    x = open("mydata.txt","a") 
+    print("the amount of all products")
+    print("the amount of all products",file=x)
     for i,p in entries.items():
       print(i,p)
-    print("The amount that you need to pay is: ")
+      print(i,p,file=x)
+    print("The amount that you need: ")
+    print("The amount that you need: ",file=x)
     print(total)
-
+    print(total,file=x)
