@@ -75,3 +75,4 @@ rollnum = input("enter Roll Num:")
 # #print(collage)
 collage1 = {name:rollnum}
 print(collage1)
+print("Hwllo world")
