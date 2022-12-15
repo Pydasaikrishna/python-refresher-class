@@ -11,6 +11,7 @@
 # MyCar.names()
 
 
+<<<<<<< HEAD
 # class Product:
 #     attr1 = "Tea powder"
 #     attr2 = "Coffee powder"
@@ -61,3 +62,18 @@ Myproduct.names()
 
 
 
+=======
+class Product:
+    attr1 = "Tea powder"
+    attr2 = "Coffee powder"
+    attr3 = "Sugar"
+
+    def names(self):
+        print("The product name is ",self.attr1)
+        print("The product name is ",self.attr2)
+        print("The product name is ",self.attr3)
+
+MyProduct = Product()
+print(MyProduct.attr2)
+MyProduct.names()
+>>>>>>> 57c67178f4ad61d3b7ff5c22d8a652e494027171

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # class Saikrishna:
 #     def __init__(self):    #Initilization
 #         self.name = "My Name is Saikrishna"
@@ -7,6 +8,17 @@
 
 # obj = Saikrishna()
 # obj.print_Myname()
+=======
+class Saikrishna:
+    def __init__(self):    #Initilization
+        self.name = "My Name is Saikrishna"
+
+    def print_Myname(self):
+        print(self.name)
+
+obj = Saikrishna()
+obj.print_Myname()
+>>>>>>> 57c67178f4ad61d3b7ff5c22d8a652e494027171
 
 
 # class Krishna:
@@ -19,6 +31,7 @@
 # obj = Krishna()
 # obj.myself()
 
+<<<<<<< HEAD
 
 
 
@@ -39,3 +52,5 @@
 
 
 
+=======
+>>>>>>> 57c67178f4ad61d3b7ff5c22d8a652e494027171
