@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as cs
 a = [1,5,7,9]
-MyData = pd.Series(a)
+MyData = cs.Series(a)
 print(MyData)
