@@ -13,3 +13,4 @@ else:
     print("Fibbino series: ")
     for i in range(Entries):
         print(Rect_fib(i))
+

@@ -12,7 +12,7 @@ import pandas as pd
 #============Add these content in file using file handling============
 studentname = [input("Enter Name: ")for i in range(2)]
 marks = [input("Enter Marks: ")for i in range(2)]
-
+Q = open("series.txt","w")
 z = pd.Series(marks,index=[studentname])
 print(z)
-
+print(z,file=Q)
